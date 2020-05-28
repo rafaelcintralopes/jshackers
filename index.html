@@ -12,7 +12,15 @@
         <input type="text" name="pesquisar" id="pesquisar" placeholder="Escreva aqui...">
         <button type="submit">Pesquisar</button>
     </form>
+    <br />
+    <a id="link">Entrar em contato</a>
 
     <script src="js/main.min.js"></script>
+
+    <script>  
+        var payload = document.location.hash.substr(1);
+        var link = document.getElementById("link");
+        link.href = payload;
+    </script>
 </body>
 </html>
