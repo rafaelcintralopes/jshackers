@@ -6,7 +6,7 @@ function search(){
 }
 
 //API
-var url = "https://rafinha2204.github.io/jshackers/api/users/";
+var url = "https://rafaelcintralopes.github.io/jshackers/api/users/";
 
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", url, true);
